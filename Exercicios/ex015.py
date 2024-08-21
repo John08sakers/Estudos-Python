@@ -1,0 +1,6 @@
+dias = int(input('Quantos dias alugados: '))
+valord = float(input('Valor da diaria do carro: R$ '))
+km = int(input('Quantos km rodados ? '))
+valorkm = float(input('Valor do KM rodado: R$ '))
+total = (dias * valord) + (km * valorkm)
+print(f'O valor a ser pago será de R$ {total:.2f}.')
